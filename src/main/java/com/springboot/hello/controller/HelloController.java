@@ -1,6 +1,6 @@
-package com.example.hello.controller;
+package com.springboot.hello.controller;
 
-import com.example.hello.dto.MemberDto;
+import com.springboot.hello.domain.dto.User;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
@@ -46,7 +46,7 @@ public class HelloController {
     }
 
     @GetMapping(value="/request3")
-    public String getRequestParam3(MemberDto memberDto){
+    public String getRequestParam3(User memberDto){
         return memberDto.toString();
     }
 }

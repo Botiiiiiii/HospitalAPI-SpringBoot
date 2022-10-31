@@ -1,6 +1,6 @@
-package com.example.hello.controller;
+package com.springboot.hello.controller;
 
-import com.example.hello.dto.MemberDto;
+import com.springboot.hello.domain.dto.User;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
@@ -19,7 +19,7 @@ public class PutController {
     }
 
     @PutMapping(value = "member2")
-    public String putDto (@RequestBody MemberDto memberDto){
+    public String putDto (@RequestBody User memberDto){
         return memberDto.toString();
     }
 
