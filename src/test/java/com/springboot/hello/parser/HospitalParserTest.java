@@ -24,8 +24,8 @@ class HospitalParserTest {
         // 어디에서든지 실행할 수 있게 짜는 것이 목표.
         String fileName = "C:\\Users\\jinwoo\\git\\hello\\fulldata_01_01_02_P_의원.csv";
         List<Hospital> hospitalList = hospitalReadLineContext.readByLine(fileName);
-//        assertTrue(hospitalList.size() > 1000);
-//        assertTrue(hospitalList.size() > 10000);
+        assertTrue(hospitalList.size() > 1000);
+        assertTrue(hospitalList.size() > 10000);
 
         for(int i = 0; i < 10; i++) {
             System.out.println(hospitalList.get(i).getHospitalName());
