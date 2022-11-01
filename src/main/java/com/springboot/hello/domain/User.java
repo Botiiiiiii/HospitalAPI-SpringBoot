@@ -1,4 +1,4 @@
-package com.springboot.hello.domain.dto;
+package com.springboot.hello.domain;
 
 public class User {
 

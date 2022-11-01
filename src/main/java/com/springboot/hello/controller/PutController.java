@@ -1,6 +1,6 @@
 package com.springboot.hello.controller;
 
-import com.springboot.hello.domain.dto.User;
+import com.springboot.hello.domain.User;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;

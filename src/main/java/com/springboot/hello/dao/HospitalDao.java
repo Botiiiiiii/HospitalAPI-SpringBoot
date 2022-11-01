@@ -1,6 +1,6 @@
-package com.springboot.hello.domain.dao;
+package com.springboot.hello.dao;
 
-import com.springboot.hello.domain.dto.Hospital;
+import com.springboot.hello.domain.Hospital;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 

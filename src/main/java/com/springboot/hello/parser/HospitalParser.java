@@ -1,9 +1,8 @@
 package com.springboot.hello.parser;
 
-import com.springboot.hello.domain.dto.Hospital;
+import com.springboot.hello.domain.Hospital;
 
 import java.time.LocalDateTime;
-import java.util.Arrays;
 
 public class HospitalParser implements Parser<Hospital> {
     @Override

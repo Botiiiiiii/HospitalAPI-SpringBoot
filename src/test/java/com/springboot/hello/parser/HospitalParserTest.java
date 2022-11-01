@@ -1,7 +1,7 @@
 package com.springboot.hello.parser;
 
-import com.springboot.hello.domain.dao.HospitalDao;
-import com.springboot.hello.domain.dto.Hospital;
+import com.springboot.hello.HospitalDao;
+import com.springboot.hello.domain.Hospital;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

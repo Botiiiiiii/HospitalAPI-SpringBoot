@@ -1,6 +1,6 @@
 package com.springboot.hello.parser;
 
-import com.springboot.hello.domain.dto.Hospital;
+import com.springboot.hello.domain.Hospital;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
