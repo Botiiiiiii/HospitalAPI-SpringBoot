@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 public class Hospital {
 
     private int id;
-    private String openServiceName; // Camel
+    private String openServiceName;
     private int openLocalGovernmentCode;
     private String managementNumber;
     private LocalDateTime licenseDate;
